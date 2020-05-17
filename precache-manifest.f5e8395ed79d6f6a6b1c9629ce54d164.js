@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cf6c4985720b41dbff4fa96c359be87a",
+    "revision": "3e17806abc6e8ea851746284ef94f14b",
     "url": "/fine-linen/index.html"
   },
   {
-    "revision": "c5454a023be1a007c590",
-    "url": "/fine-linen/static/css/main.6b8e6559.chunk.css"
+    "revision": "46af5afdc5fd1fcf3d24",
+    "url": "/fine-linen/static/css/main.13251b8e.chunk.css"
   },
   {
     "revision": "965b79f09830606683a7",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/fine-linen/static/js/2.722025d6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c5454a023be1a007c590",
-    "url": "/fine-linen/static/js/main.85976748.chunk.js"
+    "revision": "46af5afdc5fd1fcf3d24",
+    "url": "/fine-linen/static/js/main.b99c7eee.chunk.js"
   },
   {
     "revision": "efbdf1130e1150a49b6f",
