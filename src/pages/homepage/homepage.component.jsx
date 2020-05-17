@@ -4,23 +4,7 @@ import DirectoryMenu from '../../components/directory-menu/directory-menu.compon
 
 const HomePage = () => (
   <div className='homepage'>
-    <DirectoryMenu menuItems={[
-      {
-        title: 'SCARFS'
-      },
-      {
-        title: 'JACKETS'
-      },
-      {
-        title: 'PANTS'
-      },
-      {
-        title: 'MENS'
-      },
-      {
-        title: 'WOMENS'
-      }
-    ]}></DirectoryMenu>
+    <DirectoryMenu></DirectoryMenu>
   </div>
 );
 
