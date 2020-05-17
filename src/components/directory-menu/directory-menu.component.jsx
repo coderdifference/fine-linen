@@ -1,25 +1,20 @@
 import React, { Component } from "react";
 import MenuItem from "../menu-item/menu-item.component";
 import "./directory-menu.styles.scss";
+import SectionData from "../../data/sections";
 
 class DirectoryMenu extends Component {
   constructor({ menuItems }) {
     super();
     this.state = {
-      menuItems: menuItems || [
-        "SCARFS", "JACKETS", "PANTS", "MENS","WOMENS"
-      ]
+      sections: SectionData
     };
   }
   render() {
     return (
       <div className="directory-menu">
-        {this.state.menuItems.map((item, index) => (
-          <MenuItem
-            key={"K" + index}
-            title={item}
-            subtitle='SHOP NOW'
-          />
+        {this.state.sections.map(section => (
+          <MenuItem key={section.id} item={section} subtitle='SHOP NOW'/>
         ))}
       </div>
     );
