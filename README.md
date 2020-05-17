@@ -8,6 +8,6 @@ debris for default files.
 
 #### Fine Linen?
 
-Yes, as Christian I do try to wear natural fibres and unmixed fabrics. One of the difficulties in this is simply getting access to cotton, linen, wool etc that has not been blended with polyster or elastin.
+Yes, as Christian I do try to wear natural fibres and unmixed fabrics. One of the difficulties in this is simply getting access to cotton, linen, wool etc that has not been blended with polyester or elastin.
 
 It would be nice to have a simple store that sells nothing but natural unmixed fibre clothing suitable for Christians.
