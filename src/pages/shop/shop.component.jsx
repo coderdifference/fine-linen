@@ -15,14 +15,15 @@ class ShopPage extends Component {
     }
     render() {
         console.log('match', this.props.match);
-        return ( 
-        <div className='shop-page'>
-            {/*<h1 className='title'>Fine Linen</h1>
-            <h2 className='subtitle'>Clothing for Christians</h2>*/}
-            <div>
-                {this.state.inventory.map(section => (<CollectionPreview key={section.title} section={section} />))}
-            </div>
-        </div>);
+        let section = null;
+        if (this.props.match.params.section) {
+            section = this.state.inventory.find(section => section.linkUrl === `shop/${this.props.match.params.section}`);
+        }
+        let preview = section 
+            ? <div><CollectionPreview section={section}></CollectionPreview></div>
+            : <div>{this.state.inventory.map(section => (<CollectionPreview key={section.title} limit={4} section={section} />))}</div>;
+
+        return <div className='shop-page'>{preview}</div>;
     }
 }
 

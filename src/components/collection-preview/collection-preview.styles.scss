@@ -20,8 +20,8 @@ $shadow: #ccc;
 
   .list {
     display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    width: 980px;
+    flex-wrap: wrap;
+    justify-content: left;
+    width: 100%;
   }
 }
