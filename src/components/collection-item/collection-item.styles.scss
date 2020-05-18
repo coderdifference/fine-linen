@@ -1,0 +1,84 @@
+// sass-lint:disable no-url-domains, no-url-protocols
+
+$border: #000;
+$title: #4a4a4a;
+$background: #fff;
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+.collection-item {
+  align-items: center;
+  border: 1px solid $border;
+  box-shadow: 3px 3px 15px $title;
+  display: flex;
+  flex: 1 1 auto;
+  height: 280px;
+  justify-content: center;
+  margin: 0 7.5px 15px;
+  min-width: 30%;
+  overflow: hidden;
+  position: relative;
+
+  .button {
+    align-items: center;
+    background-color: $background;
+    border: 1px solid $border;
+    bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lobster', cursive;
+    height: 50px;
+    justify-content: center;
+    opacity: .7;
+    padding: 0 20px;
+    position: absolute;
+    text-transform: capitalize;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  .item-name {
+    bottom: 5px;
+    font-family: 'Lobster', cursive;
+    left: 5px;
+    position: absolute;
+  }
+
+  .item-price {
+    bottom: 5px;
+    font-family: 'Lobster', cursive;
+    position: absolute;
+    right: 5px;
+  }
+
+  .image-wrapper {
+    border-bottom: 1px solid $border;
+    height: 250px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 100%;
+
+    .background-image {
+      background-position: center;
+      background-size: cover;
+      height: 100%;
+      position: absolute;
+      width: 100%;
+    }
+  }
+
+  &:hover {
+    & .background-image {
+      transform: scale(1.1);
+      transition: transform 6s cubic-bezier(.25, .45, .45, .95);
+    }
+
+    & .button {
+      opacity: .9;
+    }
+  }
+}

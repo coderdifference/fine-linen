@@ -1,0 +1,27 @@
+// sass-lint:disable no-url-domains, no-url-protocols
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Abril+Fatface&display=swap');
+
+$highlight: rgb(192, 106, 0);
+$shadow: #ccc;
+
+.collection-preview {
+  .title {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2em;
+    margin-left: 20px;
+    text-transform: capitalize;
+
+    &:hover {
+      cursor: pointer;
+      text-decoration: underline;
+      text-shadow: 3px 3px 10px $shadow;
+    }
+  }
+
+  .list {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 980px;
+  }
+}
