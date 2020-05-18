@@ -4,7 +4,7 @@ import "./directory-menu.styles.scss";
 import SectionData from "../../data/sections";
 
 class DirectoryMenu extends Component {
-  constructor({ menuItems }) {
+  constructor() {
     super();
     this.state = {
       sections: SectionData
